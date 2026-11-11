@@ -798,3 +798,13 @@ body.dark .hybrid-feature-grid article:first-child {
         right:2%
     }
 }
+
+/* Contact page accessibility improvements */
+
+.contact-hero .section-index {
+    color: #FFFFFF;
+}
+
+.contact-hero p {
+    color: #FFFFFF;
+}
