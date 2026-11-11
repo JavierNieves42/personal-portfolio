@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Contact page for the personal portfolio of Javier Nieves-Vazquez." name="description"/>
+  <meta content="#f6f1e8" name="theme-color"/>
+  <title>
+   Contact | Javier Nieves-Vazquez
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+  <script defer="" src="js/script.js">
+  </script>
+ </head>
+ <body data-page="contact">
+  <a class="skip-link" href="#main">
+   Skip to main content
+  </a>
+  <header class="site-header">
+   <a aria-label="Javier Nieves-Vazquez home" class="brand" href="index.html">
+    JN
+    <span>
+     ✳
+    </span>
+   </a>
+   <button aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation" class="menu-toggle" type="button">
+    ☰ Menu
+   </button>
+   <nav aria-label="Main navigation" id="site-nav">
+    <a data-page="home" href="index.html">
+     Home
+    </a>
+    <a data-page="skills" href="skills.html">
+     Skills
+    </a>
+    <a data-page="contact" href="contact.html">
+     Contact
+    </a>
+   </nav>
+   <button aria-label="Switch color theme" class="theme-toggle" type="button">
+    ◐
+    <span>
+     Theme
+    </span>
+   </button>
+  </header>
+  <main id="main">
+   <section class="page-hero contact-hero">
+    <p class="section-index">
+     [ 02 / GET IN TOUCH ]
+    </p>
+    <h1>
+     LET'S MAKE
+     <br/>
+     <span class="outline">
+      SOMETHING.
+     </span>
+     <span aria-hidden="true" class="asterisk">
+      ✳
+     </span>
+    </h1>
+    <p>
+     Have a question, an idea, or just want to say hello? Drop a note below.
+    </p>
+   </section>
+   <section class="section-wrap contact-layout">
+    <aside class="contact-side">
+     <span aria-hidden="true" class="big-stamp">
+      &nearrow;
+     </span>
+     <h2>
+      GOOD IDEAS
+      <br/>
+      START WITH
+      <br/>
+      <em>
+       HELLO.
+      </em>
+     </h2>
+     <p>
+      Send a message using the form.
+     </p>
+     <p>
+      Find more about my work on
+      <a href="https://github.com/JavierNieves42" rel="noopener noreferrer" target="_blank">
+       GitHub
+       <span class="sr-only">
+        (opens in a new tab)
+       </span>
+       &nearrow;
+      </a>
+      .
+     </p>
+    </aside>
+    <form action="https://formspree.io/f/xljbrnnw" class="contact-form" id="contact-form" method="POST" novalidate="">
+     <input name="_subject" type="hidden" value="New message from Javier portfolio"/>
+     <div class="field">
+      <label for="name">
+       01 / YOUR NAME
+       <span aria-hidden="true">
+        *
+       </span>
+      </label>
+      <input aria-describedby="name-error" autocomplete="name" id="name" maxlength="100" name="name" placeholder="What should I call you?" required="" type="text"/>
+      <small class="error" id="name-error">
+      </small>
+     </div>
+     <div class="field">
+      <label for="email">
+       02 / EMAIL ADDRESS
+       <span aria-hidden="true">
+        *
+       </span>
+      </label>
+      <input aria-describedby="email-error" autocomplete="email" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+      <small class="error" id="email-error">
+      </small>
+     </div>
+     <div class="field">
+      <label for="message">
+       03 / YOUR MESSAGE
+       <span aria-hidden="true">
+        *
+       </span>
+      </label>
+      <textarea aria-describedby="message-error" id="message" maxlength="2000" minlength="10" name="message" placeholder="Tell me what's on your mind..." required="" rows="5"></textarea>
+      <small class="error" id="message-error">
+      </small>
+     </div>
+     <button class="button button-primary submit-button" type="submit">
+      Send message
+      <span aria-hidden="true">
+       &nearrow;
+      </span>
+     </button>
+     <p aria-live="polite" class="form-status" id="form-status" role="status">
+     </p>
+    </form>
+   </section>
+  </main>
+  <footer class="footer">
+   <strong>
+    JN✳
+   </strong>
+   <span>
+    Made with curiosity, code &amp; a little chaos.
+   </span>
+   <span>
+    &copy;
+    <span id="year">
+     2026
+    </span>
+    Javier Nieves-Vazquez
+   </span>
+  </footer>
+ </body>
+</html>
+
